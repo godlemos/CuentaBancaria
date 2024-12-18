@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/imagen_4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CUENTA BANCARIA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etMonto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el monto"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnConsultarSaldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Saldo" />
+
+    <Button
+        android:id="@+id/btnDepositar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Depositar Dinero" />
+
+    <Button
+        android:id="@+id/btnRetirar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retirar Dinero" />
+
+    <Button
+        android:id="@+id/btnTransferir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transferir Dinero" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textSize="16sp" />
+</LinearLayout>
